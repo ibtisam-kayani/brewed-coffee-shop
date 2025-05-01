@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brewed Coffee Shop</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf6f0;
+      color: #4b3832;
+    }
+    header {
+      background-color: #6f4e37;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #3e2c23;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('images/hero-coffee.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 3em;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .menu-items {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .item {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      width: 200px;
+      background-color: white;
+    }
+    footer {
+      background-color: #3e2c23;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brewed Coffee Shop</h1>
+    <p>Freshly Brewed. Locally Loved.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Your Daily Brew Awaits
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>At Brewed, we believe coffee is more than just a drink—it's a ritual, a community, a comfort. Founded in 2025, we serve premium blends and delicious pastries in a cozy, inviting atmosphere.</p>
+  </section>
+
+  <section class="section" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <h3>Espresso</h3>
+        <p>Strong, smooth, and bold.</p>
+        <p><strong>$3.00</strong></p>
+      </div>
+      <div class="item">
+        <h3>Cappuccino</h3>
+        <p>Perfectly frothy and rich.</p>
+        <p><strong>$4.00</strong></p>
+      </div>
+      <div class="item">
+        <h3>Cold Brew</h3>
+        <p>Chilled and refreshing.</p>
+        <p><strong>$4.50</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@brewedcoffee.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Visit us: 123 Roast Lane, Brewtown</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Brewed Coffee Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
